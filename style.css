@@ -1,0 +1,37 @@
+/*------------------
+    Google font
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------------
+       Body
+-------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-----------------------
+Navigation section start 
+-----------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+nav h1{
+    margin-right: 120px;
+}
+nav ul{
+    display: flex;
+    margin: 0px 120px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
