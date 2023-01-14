@@ -241,3 +241,13 @@ footer{
 .con-i .fa-brands{
     padding: 0px 12px;
 }
+/*----Media Query Start-----*/
+@media only screen and (max-width: 688px) {
+    ..collection{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    {
+        grid-template-columns: repeat(1, 1fr);
+}
